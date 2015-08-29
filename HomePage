@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- 导航条 -->
-    <nav class="navbar navbar-default navbar-fixed-top"> 
+    <nav class="navbar navbar-inverse navbar-fixed-top"> 
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -123,10 +123,34 @@
         <span class="sr-only">下一页</span>
       </a>
     </div>
+    <div id="footer">
+      <div class="waper">
+         <div class="footer_followus">
+          <div class="followus">
+            <a class="followus-weixin" href=""></a>
+            <a class="followus-weibo" href=""></a>
+            <a class="followus-kongjian" href=""></a>
+          </div>
+        </div>
+        <div class="footer_intro">
+          <div class="footer_link">
+            <ul>
+              <li><a href="">网站首页</a></li>
+              <li><a href="">关于我们</a></li>
+              <li><a href="">联系我们</a></li>
+              <li><a href="">意见反馈</a></li>
+              <li><a href="">友情链接</a></li>
+            </ul>
+          </div>
+          <p>Copyright © 2015 Anonymous_C All Rights Reserved | 京ICP备 *******号</p>
+        </div>
+       
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -1,21 +1,110 @@
 
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
 body{
 	padding-top: 50px;
 
 }
 
+
 .carousel{
-	position: relative;
-	margin-top:-15px; 
-	height: 500px;
+	height: 630px;
 	background-color: #000;
 }
 
 .carousel .item{
-	height: 500px;
+	height: 630px;
 	background-color: #000;
 }
 
 .carousel img{
 	width: 100%;
+}
+
+/* footer */
+.footer_link{
+
+	margin-bottom: 4px;
+	line-height: 1.8;
+}
+
+.footer_link a{
+	color: #c8cdd2;
+	text-decoration: none;
+}
+
+.footer_link a:hover{
+	color: #fff;
+}
+
+.footer_link ul{
+	overflow: hidden;
+	list-style: none;
+}
+
+.footer_link li{
+	float: left;
+	text-align: center;
+	margin-right:35px; 
+	line-height: 1.8;
+}
+
+#footer{
+	font-family:"微软雅黑",Georgia,Serif;
+	background-color: #000000;
+	padding: 27px 0;
+	font-size: 12px;
+	color: #787d82;
+	min-width: 620px;
+	height: 100px;
+}
+
+.waper{
+	width: auto;
+	max-width: 1200px;
+	margin: 10px auto;
+}
+
+/* footer-left */
+.footer_intro{
+	float: left;
+	padding-left: 25px;
+}
+
+.footer_intro p{
+
+	line-height: 1.7;
+}
+
+ /* footer-right */
+.footer_followus{
+	float: right;
+}
+
+
+.followus a{
+	float: left;
+	width: 32px;
+    height: 32px;
+    border: 0px solid;
+    margin: 3px 6px 0;
+    opacity: 0.5;
+    background-image: url(../img/footer-follow.png);
+}
+
+.followus .followus-weixin{
+	background-position: -3px -46px;
+}
+
+
+.followus .followus-weibo{
+	background-position: -3px -88px;
+}
+
+.followus .followus-kongjian{
+	background-position: -3px -134px;
 }
