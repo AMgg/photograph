@@ -26,8 +26,14 @@ body{
 }
 
 /* footer */
-.footer_link{
+.footer_intro{
+	float: left;
+	padding-left: 25px;
+	
+}
 
+.footer_link{
+	float: left;
 	margin-bottom: 4px;
 	line-height: 1.8;
 }
@@ -53,6 +59,10 @@ body{
 	line-height: 1.8;
 }
 
+.footer_intro p{
+	line-height: 1.7;
+}
+
 #footer{
 	font-family:"微软雅黑",Georgia,Serif;
 	background-color: #000000;
@@ -64,20 +74,9 @@ body{
 }
 
 .waper{
-	width: auto;
+	width:0 auto;
 	max-width: 1200px;
 	margin: 10px auto;
-}
-
-/* footer-left */
-.footer_intro{
-	float: left;
-	padding-left: 25px;
-}
-
-.footer_intro p{
-
-	line-height: 1.7;
 }
 
  /* footer-right */
@@ -87,6 +86,7 @@ body{
 
 
 .followus a{
+	position: relative;
 	float: left;
 	width: 32px;
     height: 32px;
@@ -96,15 +96,41 @@ body{
     background-image: url(../img/footer-follow.png);
 }
 
-.followus .followus-weixin{
-	background-position: -3px -46px;
+.followus a:hover{
+	opacity: 1;
 }
+
+.followus .followus-weixin{
+	background-position: -3px -134px;
+}
+
+.weixin-publicnum{
+	position: absolute;
+	left: -69px;
+	display: none;
+	bottom: 35px;
+	width: 160px;
+	height: 210px;
+	background: url(../img/footer-wxgzh.png) no-repeat 0 0;
+}
+
+.weixin-publicnumanony{
+	position: absolute;
+	left: -69px;
+	display: block;
+	bottom: 35px;
+	width: 160px;
+	height: 210px;
+	background: url(../img/footer-wxgzh.png) no-repeat 0 0;
+}
+
 
 
 .followus .followus-weibo{
-	background-position: -3px -88px;
+	background-position: -3px -46px;
 }
 
 .followus .followus-kongjian{
-	background-position: -3px -134px;
+	background-position: -3px -88px;
+
 }
