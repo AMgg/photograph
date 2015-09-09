@@ -18,9 +18,19 @@ body{
 
 .type_select{
 	border:1px solid;
-	width: 100%;
+	width: 70%;
 	height: 200px;
 	margin: 15px auto;
+
+}
+
+.type_of_pic{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border: 1px solid blue;
+	border-radius: 50%;
+
 }
 
 .pic_display{
