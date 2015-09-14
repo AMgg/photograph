@@ -6,36 +6,65 @@
 }
 
 body{
-	padding-top: 50px;
+	padding-top: 51px;
 }
 
 .top_bgm{
 	border:1px solid red;
 	width: 100%;
-	height: 200px;
-	margin: 15px auto;
+	height: 270px;
 }
 
 .type_select{
 	border:1px solid;
-	width: 70%;
-	height: 200px;
-	margin: 15px auto;
-
+	width: 80%;
+	height: 150px;
+	margin: 0 auto;
+	min-width: 1780px;
 }
 
 .type_of_pic{
+	position: relative;
+	top: 15%;
 	float: left;
 	width: 100px;
 	height: 100px;
-	border: 1px solid blue;
+	text-align: center;
+	border: 1px solid RGB(230,230,230);
 	border-radius: 50%;
-
+	margin-right: 40px;
+	transition:all 1s ease-out .2s;
+	
 }
+
+.type_of_pic>h1{
+	display: none;
+	line-height: 1.7em;
+}
+
+.h1_show{
+	display: block;
+	line-height: 1.7em;
+}
+
+
+.type_of_pic:first-child{
+	
+	margin-left: 280px;
+	/* border:5px solid red; */
+}
+
+
+.type_of_pic:hover{
+	border-radius: 20%;
+	border-color: red;
+	border-width: 5px;
+}
+
 
 .pic_display{
 	border:1px solid;
-	width: 100%;
+	width: 80%;
 	height: 200px;
-	margin: 15px auto;
+	margin: 1px auto;
 }
